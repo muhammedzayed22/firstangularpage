@@ -1,0 +1,36 @@
+p{
+    background-color: blue;
+    color:aqua;
+    font-size: medium;
+}
+
+#p{
+    background-color: blue;
+    color:aqua;
+    font-size: medium;
+}
+
+#k{
+    text-align: left;
+    color: black;
+    font-size: small;
+}
+
+/* td{
+    background-color: blue;
+    color:greenyellow
+} */
+
+#q{
+    text-align: center;
+    color: rgb(0, 255, 0);
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } 
+
+
