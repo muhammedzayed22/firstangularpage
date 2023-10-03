@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './user/register/register.component';
 import { ExpComponent } from './exp/exp.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { Router,Routes } from '@angular/router';
+import { FrontpageComponent } from './frontpage/frontpage.component';
 // import { UserModule } from './user/user.module';
 
 
@@ -28,6 +31,8 @@ import { AppRoutingModule } from './app-routing.module';
     AdminComponent,
     RegisterComponent,
     ExpComponent,
+    AdminDashboardComponent,
+    FrontpageComponent,
    
   ],
   imports: [

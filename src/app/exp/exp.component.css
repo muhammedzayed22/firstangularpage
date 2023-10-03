@@ -1,9 +1,9 @@
 ul {
     list-style-type: none;
-    margin: 0;
+    /* margin-top: 800px; */
     padding: 0;
     width: 150px;
-    height: 800px;
+    height: 750px;
     overflow: hidden;
     background-color: #333;
     float: left;
@@ -21,11 +21,13 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+ 
    li a:hover {
     background-color: #111;
+    cursor: pointer;
   } 
 
+  
 
   /* ul {
     border: 1px solid #555;

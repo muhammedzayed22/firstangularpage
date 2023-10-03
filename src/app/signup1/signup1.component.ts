@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class Signup1Component {
   [x: string]: any;
-
+  // clearhistory:boolean=false;
   loginObj: any = {
     UserId: 0,
     UserName:'',
@@ -55,7 +55,7 @@ export class Signup1Component {
     } else if (this.loginObj.UserName == 'admin' && this.loginObj.Password =='admin@123') {
       alert(this.loginObj.UserName+" and "+this.loginObj.Password);
       // localStorage.setItem('role','admin');
-      this.router.navigate(['/login']);
+      this.router.navigate(['/login'],{replaceUrl: true});
       this.temp2=true;
     }
     //way 2

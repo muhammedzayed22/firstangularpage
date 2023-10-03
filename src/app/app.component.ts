@@ -38,4 +38,5 @@ export class AppComponent {
   SearchValue:string=""
   date=new Date();
   amt:number=420.69
+  
 }

@@ -25,4 +25,5 @@ export class ExpComponent {
   signup1(){
     this.router.navigate(['/signup1'])
   }
+  
 }
