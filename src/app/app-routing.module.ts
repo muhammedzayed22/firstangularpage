@@ -7,12 +7,14 @@ import { ExpComponent } from './exp/exp.component';
 import { AdminComponent } from './login/admin/admin.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { AppComponent } from './app.component';
+import { FrontpageComponent } from './frontpage/frontpage.component';
+import { CustDashComponent } from './cust-dash/cust-dash.component';
 
 
 const routes: Routes = [
   { 
     component:Signup1Component,
-    path:'signup1'
+    path:''
   },
   {
     path:'app',
@@ -33,6 +35,14 @@ const routes: Routes = [
   {
     path:'admin-dshb',
     component:AdminDashboardComponent
+  },
+  {
+    path:'frontpage',
+    component:FrontpageComponent
+  },
+  {
+    path:'cust-dash',
+    component:CustDashComponent
   }
 ];
 

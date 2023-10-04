@@ -50,7 +50,7 @@ export class Signup1Component {
     
     if(this.loginObj.UserName == 'user123' && this.loginObj.Password =='user@123') {
       // localStorage.setItem('role','user');
-      this.router.navigate(['/user-dash']);
+      this.router.navigate(['/cust-dash']);
       this.temp1=true;
     } else if (this.loginObj.UserName == 'admin' && this.loginObj.Password =='admin@123') {
       alert(this.loginObj.UserName+" and "+this.loginObj.Password);

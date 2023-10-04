@@ -1,23 +1,20 @@
-<!-- <div class="background">
+<div class="background">
     <div class="shape"></div>
     <div class="shape"></div>
-  </div> -->
+  </div>
   <form *ngIf="!isRegister">
     <h3>Sign in</h3>
   
     <label for="username">Username</label>
     <input type="text" name ="userName" [(ngModel)]="loginObj.UserName" placeholder="Email or Phone" id="username">
-    <!-- <input type="text" name ="userName"  placeholder="Email or Phone" id="username"> -->
+
   
     <label for="password">Password</label>
     <input type="password" name ="password" [(ngModel)]="loginObj.Password" placeholder="Password" id="password">
-    <!-- <input type="password" name ="password"  placeholder="Password" id="password"> -->
   
     <button id="b" style="color: black" (click)="onLogin()" routerLink="login">Sign In</button>
-    <!-- <button style="color: black" >Log In</button> -->
     <div class="social">
         <button id="c" class="go" (click)="isRegister = !isRegister"> <i class="fab fa-google"></i>  Sign up</button>
-      <!-- <div class="go" > <i class="fab fa-google"></i>  Register</div> -->
        
     </div>
   </form>
@@ -25,20 +22,16 @@
     <h3>Sign up</h3>
     <label for="username">Username</label>
     <input type="text" name ="userName" [(ngModel)]="registerObj.UserName" placeholder="Email or Phone" id="username">
-    <!-- <input type="text" name ="userName"  placeholder="Email or Phone" id="username"> -->
   
     <label for="password">Password</label>
 
     <input type="password" name ="password" [(ngModel)]="registerObj.Password" placeholder="Password" id="password">
   
-    <!-- <input type="password" name ="password"  placeholder="Password" id="password"> -->
   
     <button id="b" style="color: black" (click)="onRegister()">Sign up</button>
-    <!-- <button style="color: black" >Register</button> -->
     <div class="social">
         <button id="c" class="go" (click)="isRegister = !isRegister"> <i class="fab fa-google"></i>  Sign in</button>
       
-      <!-- <div class="go" > <i class="fab fa-google"></i>  Login</div> -->
       
     </div>
   </form>

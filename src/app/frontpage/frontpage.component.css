@@ -2,10 +2,24 @@
     margin-left: 25%;
     margin-top: 10%;
 }
+#c{
+    /* margin-left: 25%; */
+    margin-top: 10%;
+}
 #b{
     margin-left: 15%;
     margin-top: 10%;
 }
+label{
+    display: block;
+    margin-top: 30%;
+    font-size: 16px;
+    font-weight: 500;
+}
+#d{
+    margin-left: 15%;
+    margin-top: 10%;
+}
 body{
-    /* background-image: url('Supervisor.jpg'); */
+    /* background-image: url('admin.jpg'); */
 }
